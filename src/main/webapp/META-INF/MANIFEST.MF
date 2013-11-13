@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Class-Path: activation-1.1.jar commons-codec-1.2.jar commons-httpclien
+ t-3.1.jar httpclient-4.0.3.jar httpcore-4.0.1.jar jackson-core-asl-1.
+ 9.12.jar jackson-jaxrs-1.9.12.jar jackson-mapper-asl-1.9.12.jar jacks
+ on-xc-1.9.12.jar javassist-3.12.1.GA.jar jaxrs-api-2.2.1.GA.jar jcip-
+ annotations-1.0.jar jsr250-api-1.0.jar resteasy-jackson-provider-3.0.
+ 4.Final.jar resteasy-jaxrs-2.2.1.GA.jar scannotation-1.0.3.jar
+

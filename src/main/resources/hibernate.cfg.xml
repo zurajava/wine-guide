@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hbm2ddl.auto">validate</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+		
+		<property name="connection.url">jdbc:mysql://mysql-service.j.rsnx.ru/hacatone_db</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">FEnJmGKyebyb6v8q</property>
+
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<mapping class="com.google.hacatone.entity.Wines"/>
+		<mapping class="com.google.hacatone.entity.Favorite"/>
+		<mapping class="com.google.hacatone.entity.Gallery"/>
+		<mapping class="com.google.hacatone.entity.GalleryType"/>
+		<mapping class="com.google.hacatone.entity.Hotel"/>
+		<mapping class="com.google.hacatone.entity.Restaurants"/>
+		<mapping class="com.google.hacatone.entity.Shop"/>
+		<mapping class="com.google.hacatone.entity.Food"/>
+		<mapping class="com.google.hacatone.entity.FoodType"/>
+		<mapping class="com.google.hacatone.entity.WineType"/>
+		<mapping class="com.google.hacatone.entity.WineFoodPairing"/>
+		<mapping class="com.google.hacatone.entity.Event"/>
+		<mapping class="com.google.hacatone.entity.Grape"/>		
+		<mapping class="com.google.hacatone.entity.WineBarCode"/>
+	</session-factory>
+</hibernate-configuration>
+
+
+<!--
+//work
+     
+	  
+	  //production
+	  username="root"
+	 password="FEnJmGKyebyb6v8q"
+	 url="jdbc:mysql://mysql-service.j.rsnx.ru/hacatone_db"
+	    <property name="connection.url">jdbc:mysql://mysql-service.j.rsnx.ru/hacatone_db</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">FEnJmGKyebyb6v8q</property>
+		
+		
+	 //home
+	 <property name="connection.url">jdbc:mysql://localhost:3306/hacatone_db</property>
+		<property name="connection.username">sms-user</property>
+		<property name="connection.password">JdNjPB2tVr6Ds4ZT</property>
+	 
+	 //homelep
+	 <property name="connection.url">jdbc:mysql://localhost:3306/hacatone_db</property>
+		<property name="connection.username">sms-user</property>
+		<property name="connection.password">C7XKMQcpdPTHK7t8</property>
+	 
+	 username="sms-user"
+	 password="JdNjPB2tVr6Ds4ZT"
+	  url="jdbc:mysql://localhost:3306/hacatone_db"-->
